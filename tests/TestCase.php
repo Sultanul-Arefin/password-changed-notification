@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 use SultanulArefin\PasswordChangedNotification\PasswordChangedNotificationServiceProvider;
 
+
 class TestCase extends Orchestra
 {
     protected function setUp(): void
@@ -28,9 +29,7 @@ class TestCase extends Orchestra
     {
         config()->set('database.default', 'testing');
 
-        /*
-        $migration = include __DIR__.'/../database/migrations/create_password-changed-notification_table.php.stub';
+        $migration = include __DIR__.'/../database/migrations/create_users_table.php.stub';
         $migration->up();
-        */
     }
 }

@@ -4,7 +4,6 @@ namespace SultanulArefin\PasswordChangedNotification;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use SultanulArefin\PasswordChangedNotification\Commands\PasswordChangedNotificationCommand;
 
 class PasswordChangedNotificationServiceProvider extends PackageServiceProvider
 {
