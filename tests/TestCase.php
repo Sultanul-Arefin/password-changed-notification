@@ -6,7 +6,6 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 use SultanulArefin\PasswordChangedNotification\PasswordChangedNotificationServiceProvider;
 
-
 class TestCase extends Orchestra
 {
     protected function setUp(): void

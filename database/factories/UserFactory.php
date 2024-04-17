@@ -3,7 +3,6 @@
 namespace SultanulArefin\PasswordChangedNotification\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
 use SultanulArefin\PasswordChangedNotification\Tests\Models\User;
@@ -51,4 +50,3 @@ class UserFactory extends Factory
         ]);
     }
 }
-

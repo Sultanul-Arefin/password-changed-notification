@@ -3,8 +3,7 @@
 use Illuminate\Support\Facades\Mail;
 use SultanulArefin\PasswordChangedNotification\Tests\Models\User;
 
-it('can send mail to the users when password is changed', function ()
-{
+it('can send mail to the users when password is changed', function () {
     Mail::fake();
 
     $user = User::factory()->create();
@@ -15,8 +14,7 @@ it('can send mail to the users when password is changed', function ()
     Mail::assertSent($user->passwordChangedNotificationMail()::class);
 });
 
-it('will not send mail to the users when password is not changed', function ()
-{
+it('will not send mail to the users when password is not changed', function () {
     Mail::fake();
 
     $user = User::factory()->create();
