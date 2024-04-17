@@ -2,7 +2,7 @@
     "name": "sultanul-arefin/password-changed-notification",
     "description": "A simple package to send mail notification to the user when their password is changed",
     "keywords": [
-        "Sultanul-Arefin",
+        "sultanul-arefin",
         "laravel",
         "password-changed-notification"
     ],
@@ -10,7 +10,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Sultanul-Arefin",
+            "name": "sultanul-arefin",
             "email": "fahimsultan4@gmail.com",
             "role": "Developer"
         }
